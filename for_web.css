@@ -1,0 +1,50 @@
+@media screen {
+	
+	section {
+	}
+
+	#leftt {
+		float:left;
+		width:48%;
+		overflow:hidden;
+		text-align: justify;
+
+		font-size: 120%;
+	}
+
+	#rightt {
+		float:right;
+		width:48%;
+		overflow:hidden;
+	} 
+
+	sup {
+		font-size: 75%;
+	}
+
+	.p_outer {
+		margin-top: 30mm;
+		clear: both;
+	}
+
+	.p_left {
+		float:left; 
+		width			: 47%;
+		padding-right	: 3%; 
+		text-align		: justify;
+		vertical-align	: top;
+		display			: inline;
+		font-size		: 95%;	
+		overflow		: visible;
+	}
+
+	.p_right {
+		float:right; 
+		width			: 47%;
+		padding-left	: 3%; 
+		vertical-align	: top;
+		display			: inline;
+		font-size		: 81%;
+		overflow		: visible;
+	}
+}
