@@ -1,3 +1,3 @@
-# bible
+# POJ Bible
 
-POJ version of Bible, two penmanships side by side.
+The POJ version of Bible, two penmanships side by side.
