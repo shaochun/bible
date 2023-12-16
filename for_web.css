@@ -10,16 +10,20 @@
 		text-align: justify;
 
 		font-size: 120%;
+		font-family: "jf-openhuninn-1.1";
 	}
 
 	#rightt {
 		float:right;
 		width:48%;
 		overflow:hidden;
+		font-family: "jf-openhuninn-1.1";
+
 	} 
 
 	sup {
 		font-size: 75%;
+		font-family: "jf-openhuninn-1.1";
 	}
 
 	.p_outer {
@@ -35,6 +39,7 @@
 		vertical-align	: top;
 		display			: inline;
 		font-size		: 95%;	
+		font-family     : "jf-openhuninn-1.1";
 		overflow		: visible;
 	}
 
@@ -45,6 +50,7 @@
 		vertical-align	: top;
 		display			: inline;
 		font-size		: 81%;
+		font-family     : "jf-openhuninn-1.1";
 		overflow		: visible;
 	}
 }
