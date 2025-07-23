@@ -1,56 +1,49 @@
-@media screen {
-	
-	section {
-	}
+/*---------------------------------------------------
+  apply to screen AND print
+----------------------------------------------------*/
+@media screen, print {
+  .p_outer {
+    margin-top: 30mm;
+    clear: both;
+  }
 
-	#leftt {
-		float:left;
-		width:48%;
-		overflow:hidden;
-		text-align: justify;
+  .p_left {
+    float: left;
+    width: 47%;
+    padding-right: 3%;
+    text-align: justify;
+    font-size: 95%;
+    font-family: "jf-openhuninn-1.1";
+    overflow: visible;
+  }
 
-		font-size: 120%;
-		font-family: "jf-openhuninn-1.1";
-	}
+  .p_right {
+    float: right;
+    width: 47%;
+    padding-left: 3%;
+    font-size: 81%;
+    font-family: "jf-openhuninn-1.1";
+    overflow: visible;
+  }
 
-	#rightt {
-		float:right;
-		width:48%;
-		overflow:hidden;
-		font-family: "jf-openhuninn-1.1";
+  sup {
+    font-size: 75%;
+    font-family: "jf-openhuninn-1.1";
+  }
+}
 
-	} 
-
-	sup {
-		font-size: 75%;
-		font-family: "jf-openhuninn-1.1";
-	}
-
-	.p_outer {
-		margin-top: 30mm;
-		clear: both;
-	}
-
-	.p_left {
-		float:left; 
-		width			: 47%;
-		padding-right	: 3%; 
-		text-align		: justify;
-		vertical-align	: top;
-		display			: inline;
-		font-size		: 95%;	
-		font-family     : "jf-openhuninn-1.1";
-		overflow		: visible;
-	}
-
-	.p_right {
-		float:right; 
-		width			: 47%;
-		padding-left	: 3%; 
-		vertical-align	: top;
-		display			: inline;
-		font-size		: 81%;
-		font-family     : "jf-openhuninn-1.1";
-		overflow		: visible;
-	}
+/*---------------------------------------------------
+  print-specific tweaks (page size, margins, colours)
+----------------------------------------------------*/
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;   /* preserve your fonts/colors */
+    print-color-adjust: exact;
+    margin: 0;
+    padding: 0;
+  }
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
 }
